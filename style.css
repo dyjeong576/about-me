@@ -1,0 +1,103 @@
+@font-face { font-family: 'GmarketSansMedium'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff'); font-weight: normal; font-style: normal; }
+body{
+  font-family: GmarketSansMedium;
+  background-color: #fafafa;
+  color : #777;
+}
+header{
+    background-color: #bccfff;
+    text-align: center;
+}
+.profile{
+    width: 150px;
+    height: 150px; 
+    border-radius: 70%;
+    overflow: hidden;
+    margin-top: 80px;
+    margin-bottom : 40px;
+}
+.name{
+    margin : 10px;
+}
+
+.nav-style{
+    list-style-type: none;
+    width: 250px;
+    height: 100%;
+    overflow: auto;
+    position: fixed;
+}
+ul{
+    margin-top : 30px;
+    width: 250px;
+    padding : 0px;
+    text-align: center;
+}
+li {
+ 
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: bold; 
+    height : 40px;
+}
+
+li:hover{
+    background: #fafafa;
+    color : #bccfff;
+}
+
+.main{
+
+    padding-top : 50px;
+}
+
+.bigh{
+    font-size: 50px;
+    color : #6a75ca;
+}
+
+.smallh{
+    font-size : 25px;
+    color :  #777;
+    padding : 30px 0;
+    
+}
+.introduction{
+    padding-left : 350px;
+    border-bottom : 6px solid #f4f4f4;
+}
+.intro{
+
+}
+.intro h1{
+    margin-top : 20px;
+    font-size : 30px;
+    
+}
+.skillset{
+    padding-left : 350px;
+    border-bottom : 6px solid #f4f4f4;
+}
+.skill{
+
+}
+.portfolio{
+    padding-left : 350px;
+    border-bottom : 6px solid #f4f4f4;
+}
+.port{
+
+}
+.contact{
+    padding-left : 350px;
+}
+.cont{
+    color :  #777;
+    line-height: 175%;
+    margin-bottom : 50px;
+}
+.contact a{
+    text-decoration: none;
+    color :  #777;
+}
